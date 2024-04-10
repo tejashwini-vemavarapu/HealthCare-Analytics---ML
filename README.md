@@ -57,3 +57,43 @@ The dependent variable for the logistic regression model is the binary variable
 "Readmitted", which can be coded as 1 for patients who were readmitted within 30
 days and 0 for those who were not.
 
+
+# Methodology 
+# Data Preprocessing:
+
+1. Remove instances with missing values or incomplete data
+
+2. Encode categorical variables using one-hot encoding or label encoding
+
+3. Standardize numerical variables using Z-score normalization
+
+# Feature Selection:
+
+1. Use domain knowledge and exploratory data analysis to identify relevant features
+
+2. Apply statistical techniques like correlation analysis, chi-square test, or feature
+importance score to select important features.
+
+# Model Training:
+
+1. Split the dataset into training and validation sets
+
+2. Fit a logistic regression model to the training data
+
+3. Evaluate the model's performance on the validation set using metrics such as
+accuracy, precision, recall, and F1 score.
+
+4. Tune the model hyperparameters using techniques to improve the model's
+performance.
+
+#  Model Interpretation:
+
+1. Interpret the model coefficients to understand the impact of each feature on the
+target variable.
+
+2. Analyze the model's predictions using tools like confusion matrix, ROC curve, and
+precision-recall curve to gain insights into the model's behavior.
+
+3. Use the model to generate predictions on new data and evaluate its performance on
+an independent test set.
+
