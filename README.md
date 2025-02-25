@@ -62,6 +62,38 @@ By leveraging machine learning, we can enhance patient outcomes and reduce hospi
 
 ---
 
+## Installation
+
+To set up this project locally, follow these steps:
+
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/your-username/HealthCare-Analytics-ML.git
+   cd HealthCare-Analytics-ML
+   ```
+
+2. **Create a Virtual Environment (Optional but Recommended)**  
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate     # On Windows
+   ```
+
+3. **Install Dependencies**  
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Jupyter Notebook**  
+   ```sh
+   jupyter notebook
+   ```
+
+5. **Open and Execute the Notebook**  
+   - Navigate to the `.ipynb` file in Jupyter and run the cells.
+
+---
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -72,4 +104,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## How to Contribute
 Contributions are welcome! If you'd like to improve this project, please fork the repository and submit a pull request.
-
